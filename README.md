@@ -121,13 +121,10 @@ echo "Hello" | websocat ws://localhost:8080/ws
 
 公式ドキュメント：
 - [MDN WebSocket API](https://developer.mozilla.org/ja/docs/Web/API/WebSocket)
-- [RFC 6455 - WebSocket Protocol](https://tools.ietf.org/html/rfc6455)
 
 チュートリアルと解説：
 - [WebSocketの仕組みについて](https://zenn.dev/nameless_sn/articles/websocket_impression)
 - [GoのWebSocketサンプル](https://pkg.go.dev/golang.org/x/net/websocket)
-- [Flutter WebSocket Guide](https://flutter.dev/docs/cookbook/networking/web-sockets)
-
 7. **使用上の注意点**
 - セキュリティ（WSS使用推奨）
 - エラーハンドリング
